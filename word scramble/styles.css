@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #96B6C5;
+}
+.container{
+    width: 450px;
+    border-radius: 10px;
+    background: #ADC4CE;
+}
+.container h2{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 20px 25px;
+    border-bottom: 1px solid #EEE0C9;
+    color:#fff;
+}
+.container .preview{
+    margin: 25px 20px 35px;
+}
+.preview .word{
+    user-select: none;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 18px;
+    margin-right: -18px;
+    word-break: break-all;
+    text-transform: uppercase;
+    color: #fff;
+}
+.preview .details{
+    margin: 25px 0 20px;
+}
+.details p{
+    font-size: 18px;
+    margin-bottom: 10px;
+    color:#fff;
+}
+.preview input{
+    width: 100%;
+    height: 50px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    background: #e8f2f2;
+    color:#bbb;
+}
+.content input:focus{
+    color: #555;
+}
+.content input:focus::placeholder{
+    color:#bbb;
+}
+.content .button{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.buttons button{
+    border: none;
+    outline: none;
+    color:#fff;
+    cursor: pointer;
+    padding: 14px 0;
+    font-size: 16px;
+    border-radius: 8px;
+    width: calc(50% - 6px);
+}
+.buttons button:active{
+    transform: scale(0.97);
+}
+.buttons .refresh-word{
+    background: #a7b1b9;
+}
+.buttons .refresh-word:hover{
+    background: #828d99;
+}
+.buttons .check-word{
+    background: #c9e1ee;
+}
+.buttons .check-word:hover{
+    background: #88c9d6;
+}
